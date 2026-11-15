@@ -7,6 +7,7 @@ Code for the GDELT Big Data analytics project.
 - **Shell/** — Ubuntu/WSL shell scripts for dataset setup, extraction, Hadoop/Hive services, HDFS directories, and upload.
 - **Hive/** — Hive/Beeline HQL for verification, file-level counts, and the eight analytical query areas.
 - **Visualization/** — R/RStudio and ggplot2 visualization code.
+- **Output/** — Output Screenshots.
 
 ## Technology stack
 
@@ -18,4 +19,4 @@ Seven GDELT daily event files from 3 November 2026 through 9 November 2026 were 
 
 ## Important
 
-The repository contains source code only. Dataset files, screenshots, reports, and presentation files are intentionally excluded.
+The repository contains source code and output only. Dataset files, reports, and presentation files are intentionally excluded.
