@@ -36,6 +36,15 @@ SELECT
 FROM gdelt_events
 WHERE GoldsteinScale IS NOT NULL;
 
+-- Analysis 4(ii) - Goldstein Scale distribution (exported as goldstein_distribution.csv for R Graph 4)
+SELECT
+    GoldsteinScale AS goldstein_scale,
+    COUNT(*) AS event_count
+FROM gdelt_events
+WHERE GoldsteinScale IS NOT NULL
+GROUP BY GoldsteinScale
+ORDER BY goldstein_scale;
+
 -- Analysis 5 - Most active countries
 SELECT
     ActionGeo_CountryCode AS country_code,
